@@ -1,0 +1,12 @@
+.Nav{
+    margin-left: auto;
+}
+.Navbar{
+    background-color: #ffc9cf;
+    color: black;
+    font-size: 21px;
+    font-weight: 600;
+}
+.NavItem{
+    color: black;
+}

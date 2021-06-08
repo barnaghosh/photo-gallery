@@ -1,0 +1,110 @@
+.Main{
+    
+    width: 95%;
+    height: 400px;
+    border: 3px solid  #ffc9cf;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    box-shadow: 0px 0px 10px gray;
+    transition: 1s;
+}
+.Main:hover{
+    box-shadow: 0px 0px 20px gray;
+}
+
+.Left{
+    
+    width: 55%;
+    height: 100% ;
+}
+.Right{
+    
+    width: 45%;
+    height: 100%;
+    overflow-y: auto;
+}
+.Up{
+   
+    width: 100%;
+    height: 55%;
+}
+.Down{
+    
+    width: 100%;
+    height: 45%;
+    overflow-y: auto;
+    
+}
+
+.Item{
+    background-color:#ffc9cf;
+    
+    width: 50%;
+    height: 100%;
+    margin: 5px;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.img-div{
+    width: 100%;
+    height: 88px;
+}
+.clickImg{
+    width: 100%;
+    height: 100%;
+}
+.clickImg-div{
+    width: 100%;
+    height: 215px;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent,#ffc9cf);
+    border-radius: 6px;
+}
+
+
+@media (max-width: 768px px) {
+    .card-xs-class {
+      width: 25% ;
+      height: 90px;
+    }
+    
+  }
+
+@media (min-width: 768px) {
+    .card-sm-class {
+        width: 25% ;
+        height: 90px;
+    }
+}  
+
+@media (min-width: 992px ) {
+    .card-md-class {
+        width: 25% ;
+        height: 90px;
+    }
+}
+
+@media (min-width: 1200px ) {
+    .card-lg-class {
+        width: 25% ;
+        height: 90px;
+    }
+}  
+
+.name{
+    font-family: 'Karantina', cursive;
+    font-size: 25px;
+    text-align: center;
+}
